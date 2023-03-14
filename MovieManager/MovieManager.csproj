@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>8543158a-8b26-4c53-ad4f-07b966767ece</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Entities\" />
+    <None Remove="DTOs\" />
+    <None Remove="Utilities\" />
+    <None Remove="Services\" />
+    <None Remove="Repositories\" />
+    <None Remove="Profiles\" />
+    <None Remove="Helpers\" />
+    <None Remove="Entities\Configurations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Entities\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Profiles\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Entities\Configurations\" />
+  </ItemGroup>
+</Project>

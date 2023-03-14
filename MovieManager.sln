@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieManager", "MovieManager\MovieManager.csproj", "{0D462AD8-8EDA-420E-AF49-328116961A8C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2E30AD74-F160-4C73-B956-8892BD62061C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D462AD8-8EDA-420E-AF49-328116961A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D462AD8-8EDA-420E-AF49-328116961A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D462AD8-8EDA-420E-AF49-328116961A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D462AD8-8EDA-420E-AF49-328116961A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E30AD74-F160-4C73-B956-8892BD62061C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E30AD74-F160-4C73-B956-8892BD62061C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E30AD74-F160-4C73-B956-8892BD62061C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E30AD74-F160-4C73-B956-8892BD62061C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCDA7928-21BF-4894-9D50-C90044251B5D}
+	EndGlobalSection
+EndGlobal
