@@ -15,7 +15,7 @@ namespace MovieManager.Entities
             base.ConfigureConventions(configurationBuilder);
 
             configurationBuilder.Properties<DateTime>().HaveColumnType("date");
-            configurationBuilder.Properties<string>().HaveMaxLength(150);
+            configurationBuilder.Properties<string>().HaveMaxLength(500);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -30,8 +30,6 @@ namespace MovieManager.Entities
         public DbSet<Movie> Movies { get; set; }
         public DbSet<MovieActor> MoviesActors { get; set; }
         public DbSet<Role> Roles { get; set; }
-
-
     }
 
 }
